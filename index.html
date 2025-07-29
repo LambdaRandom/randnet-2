@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randnet</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/78fdd1909e.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+
+    <div class="window_title">
+
+        <div class="big_text">Randnet</div>
+        <div class="little_text">Maryland, USA</div>
+
+        <div class="gifbar">
+            <img src="gifs/keep.gif">
+            <img src="gifs/madeinmaryland.gif">
+            <img src="gifs/lovebetweencoatsts.gif">
+            <img src="gifs/nokings.gif">
+            <img src="gifs/1080p.gif">
+            <img src="gifs/thismachinekillsfascists.png">
+        </div>
+
+    </div>
+
+    <div class="page">
+
+        <div class="side_bars">
+        </div>
+
+        <div class="content">
+
+            <div class="about_me">
+                <h1>Who am I?</h1>
+                <p>My name is Random (internet name) and I like to make websites. I am a Marylander who was raised deeply into my state's culture, despite an adversion to Old Bay seasoning. I first began web development around the age of ~12 years old when my friend introduced me to it, and soon began programming. I took several computer science classes in highschool (including one cybersecurity class) that helped me round out my skillsets in multiple languages (I would only say im fluent in Python and Java). I worked for 8 months in a fast food job, where in addition with online and school courses, picked up a not-inconsiderable amount of spanish that has developed me into a more cosmopolitan person despite the small-town community I live in. I enjoy playing the piano, composing music, fishing, and reading.</p>
+            </div>
+
+            <div class="blog_box">
+                <div class="blog_chapter">
+                    <h2>July 2025</h2>
+                    <p>Hey! All entries below this date are added after they have already happened. They've been added to provide some historic context and a little fluff to the website. <br><br> Anyway, I quit smoking earlier this month. I have made my peace and said goodbye. Im currently looking around for a new job (ideally one that doesn't suck) but the options are kind of abysmal.</p>
+                </div>
+                <div class="blog_chapter">
+                    <h2>May 2025</h2>
+                    <p>I graduated! Long time coming, I guess. Isn't that true for every graduate? I think im going to miss highschool. I had alot of friends that I only saw during school and will likely never see again... but hey! Im also an adult now. So Its time for my life to move on, now. Im sure i'll meet new people.</p>
+                </div>
+                <div class="blog_chapter">
+                    <h2>February 2025</h2>
+                    <p>I let my old website host run out of credits. I dont need to have a website up and I don't care enough to feed it more money. It wasn't that good anyways - my next one will be much better.</p>
+                </div>
+                <div class="blog_chapter">
+                    <h2>December 2024</h2>
+                    <p>Quit working at my fuckass job!!! Manager clocked me out because they couldn't afford to pay me, but I don't have a car so I had to walk all the way. It was terrible and I am glad to have left.</p>
+                </div>
+            </div>
+            
+            <marquee class="friend_ring">
+                <a href="home.html" target="_blank" class="banner_link"><img src="gifs/randnet.gif"></a><a href="https://wrzeczak.net/" target="_blank" class="banner_link"><img src="gifs/wrzeczak.gif"></a><a href="https//zpike.net/" target="_blank" class="banner_link"><img src="gifs/zpike.gif"></a>
+            </marquee>
+
+        </div>
+
+        <div class="side_bars">
+            <div class="music_box">
+                <p>Random's Favorite Music</p>
+                <div class="music_player">
+                    <button id="skip_backward" onclick="skipBackward()"><img src="images/left_arrow.png"></button>
+                    <button id="play" onclick="toggleMusic()"><img src="images/play_button.png" id="play_button"></button>
+                    <button id="skip_forward" onclick="skipForward()"><img src="images/right_arrow.png"></button>
+                    <p id="song_title" class="song_title"></p>
+                </div>
+                <audio id="audioPlayer"></audio>
+                <div id="seekContainer" class="seekContainer">
+                    <div id="seekFill" class="seekFill"></div>
+                </div>
+                <div class="playlist_titles" id="playlist_titles"></div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
