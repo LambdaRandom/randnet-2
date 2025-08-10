@@ -10,6 +10,8 @@ const songs = [
     { path: "music/For Once In My Life.mp3", artist: "Stevie Wonder", title: "For Once In My Life"},
     { path: "music/All Over The World.mp3", artist: "ELO", title: "All Over The World"},
     { path: "music/Wham Bam Shang-A-Lang.mp3", artist: "Silver", title: "Wham Bam Shang-A-Lang"},
+    { path: "music/Bluebird.mp3", artist: "ELO", title: "Bluebird"},
+    { path: "music/Latitude 88 North.mp3", artist: "ELO", title: "Latitude 88 North"},
 ];
 
 let musicPlaying = false;
