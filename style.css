@@ -137,16 +137,6 @@ a img:hover { filter: brightness(120%); box-shadow: #ecf9ff 0 0 8px;}
     height: auto;
 }
 
-@media only screen and (max-width: 1270px) {
-    .music_box {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.3);
-    }
-}
-
 .music_player { display: flex; height: 46px;}
 
 .music_player button {
@@ -210,7 +200,24 @@ a img:hover { filter: brightness(120%); box-shadow: #ecf9ff 0 0 8px;}
 }
 
 @media only screen and (max-width: 1270px) {
-    .playlist_titles {
-        display: none;
+    .music_box {
+        position: relative;
+        width: 100%;
+        top: 30px;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .page {
+        flex-direction: column;
+        width: 100%;
+    }
+    .side_bars {
+        width: 96%;
+    }
+    .friend_ring {
+        width: 98%;
+    }
+    .content {
+        width: 98%;
+        max-width: none;
     }
 }
