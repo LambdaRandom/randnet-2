@@ -220,4 +220,7 @@ a img:hover { filter: brightness(120%); box-shadow: #ecf9ff 0 0 8px;}
         width: 98%;
         max-width: none;
     }
+    html {
+        background-size: cover;
+    }
 }
